@@ -245,29 +245,42 @@ footer p{font-size:12px;line-height:1.7;margin-bottom:16px}
 
 <script>
 const products = [
+  // --- LUSH GREEN/PLANT DISPLAY SHOTS FIRST ---
   {
-    name: "Star & Cowrie Shell Pendant",
-    type: "necklace", price: 55, url: "#", tag: null,
-    desc: "Mother-of-pearl star charm wire-wrapped with freshwater pearls and a natural cowrie shell drop. Gold-filled chain.",
-    imgs: ["images/product-0.jpg", "images/product-6.jpg"]
+    name: "Purple Orchid Simple Pendant",
+    type: "necklace", price: 65, url: "#", tag: "Bestseller",
+    desc: "Preserved purple vanda orchid on a simple gold box chain. Clean and striking.",
+    imgs: ["images/IMG_6373.jpg", "images/IMG_6509.jpg", "images/product-25.jpg"]
   },
   {
-    name: "Star & Baroque Pearl Necklace",
-    type: "necklace", price: 58, url: "#", tag: "Bestseller",
-    desc: "Wire-wrapped star charm with freshwater pearls and a baroque pearl drop pendant. Gold-filled box chain.",
-    imgs: ["images/product-1.jpg", "images/product-2.jpg"]
+    name: "White Orchid Pendant",
+    type: "necklace", price: 72, url: "#", tag: "Bestseller",
+    desc: "Preserved white phalaenopsis with magenta lip on a gold-filled chain. Classic orchid beauty.",
+    imgs: ["images/IMG_6495.jpg", "images/product-23.jpg", "images/product-26.jpg"]
   },
   {
-    name: "Star & Oval Pearl Pendant",
-    type: "necklace", price: 55, url: "#", tag: null,
-    desc: "Mother-of-pearl star charm with jade accent and an elegant oval pearl drop. Gold-filled chain.",
-    imgs: ["images/product-3.jpg", "images/product-4.jpg"]
+    name: "Purple Orchid Pearl Choker",
+    type: "choker", price: 82, url: "#", tag: "New",
+    desc: "Preserved purple orchid bloom on a natural freshwater pearl chip choker. Bold and beautiful.",
+    imgs: ["images/IMG_6512.jpg", "images/product-19.jpg", "images/product-20.jpg"]
   },
   {
-    name: "Mini Star Charm Necklace",
-    type: "necklace", price: 42, url: "#", tag: null,
-    desc: "Dainty wire-wrapped star charm with pearl accent on a fine gold-filled chain. Everyday elegance.",
-    imgs: ["images/product-14.jpg", "images/product-16.jpg", "images/product-17.jpg"]
+    name: "Orchid Amethyst Charm Necklace",
+    type: "statement", price: 90, url: "#", tag: null,
+    desc: "White orchid with amethyst stones, crystal drops, and gold coin charms on an artisan chain.",
+    imgs: ["images/product-22.jpg", "images/product-21.jpg", "images/IMG_6428.jpg"]
+  },
+  {
+    name: "Purple Orchid Charm Choker",
+    type: "choker", price: 88, url: "#", tag: null,
+    desc: "Purple orchid on a charm chain with amethyst, gold coins, and crystal accents. Luxe bohemian vibes.",
+    imgs: ["images/IMG_6503.jpg", "images/product-24.jpg", "images/IMG_6402.jpg"]
+  },
+  {
+    name: "Gold Shell & Orchid Necklace",
+    type: "statement", price: 88, url: "#", tag: "New",
+    desc: "Gold-edged scallop shell pendant with preserved purple orchid and star charm. Pearl detailing throughout.",
+    imgs: ["images/product-10.jpg", "images/product-8.jpg", "images/product-9.jpg"]
   },
   {
     name: "Purple Orchid Drop Pendant",
@@ -281,47 +294,36 @@ const products = [
     desc: "Preserved purple orchid with double wire-wrapped star charms cascading on gold chain.",
     imgs: ["images/product-13.jpg", "images/product-11.jpg"]
   },
+  // --- DRIFTWOOD/SHELL DISPLAY SHOTS ---
   {
-    name: "Gold Shell & Orchid Necklace",
-    type: "statement", price: 88, url: "#", tag: "New",
-    desc: "Gold-edged scallop shell pendant with preserved purple orchid and star charm. Pearl detailing throughout.",
-    imgs: ["images/product-10.jpg", "images/product-8.jpg", "images/product-9.jpg"]
+    name: "Mini Star Charm Necklace",
+    type: "necklace", price: 42, url: "#", tag: null,
+    desc: "Dainty wire-wrapped star charm with pearl accent on a fine gold-filled chain. Everyday elegance.",
+    imgs: ["images/product-15.jpg", "images/product-14.jpg", "images/product-16.jpg", "images/product-17.jpg"]
   },
   {
     name: "Star & Pearl Shell Pendant",
     type: "necklace", price: 48, url: "#", tag: null,
-    desc: "Star charm pendant with freshwater pearls, displayed on a gold-rimmed scallop shell.",
-    imgs: ["images/product-18.jpg", "images/product-15.jpg"]
+    desc: "Star charm pendant with freshwater pearls on a gold-rimmed scallop shell. Gold-filled chain.",
+    imgs: ["images/product-18.jpg", "images/product-8.jpg"]
   },
   {
-    name: "Purple Orchid Pearl Choker",
-    type: "choker", price: 82, url: "#", tag: "New",
-    desc: "Preserved purple orchid bloom on a natural freshwater pearl chip choker. Bold and beautiful.",
-    imgs: ["images/IMG_6512.jpg", "images/product-19.jpg", "images/product-20.jpg"]
+    name: "Star & Cowrie Shell Pendant",
+    type: "necklace", price: 55, url: "#", tag: null,
+    desc: "Mother-of-pearl star charm wire-wrapped with freshwater pearls and a natural cowrie shell drop. Gold-filled chain.",
+    imgs: ["images/product-0.jpg", "images/product-6.jpg"]
   },
   {
-    name: "Purple Orchid Simple Pendant",
-    type: "necklace", price: 65, url: "#", tag: null,
-    desc: "Preserved purple vanda orchid on a simple gold box chain. Clean and striking.",
-    imgs: ["images/IMG_6373.jpg", "images/IMG_6509.jpg", "images/product-25.jpg"]
+    name: "Star & Baroque Pearl Necklace",
+    type: "necklace", price: 58, url: "#", tag: null,
+    desc: "Wire-wrapped star charm with freshwater pearls and a baroque pearl drop pendant. Gold-filled box chain.",
+    imgs: ["images/product-1.jpg", "images/product-2.jpg"]
   },
   {
-    name: "White Orchid Pendant",
-    type: "necklace", price: 72, url: "#", tag: "Bestseller",
-    desc: "Preserved white phalaenopsis with magenta lip on a gold-filled chain. Classic orchid beauty.",
-    imgs: ["images/IMG_6495.jpg", "images/product-23.jpg", "images/product-26.jpg"]
-  },
-  {
-    name: "Orchid Amethyst Charm Necklace",
-    type: "statement", price: 90, url: "#", tag: null,
-    desc: "White orchid with amethyst stones, crystal drops, and gold coin charms on an artisan chain.",
-    imgs: ["images/product-22.jpg", "images/product-21.jpg", "images/IMG_6428.jpg"]
-  },
-  {
-    name: "Purple Orchid Charm Choker",
-    type: "choker", price: 88, url: "#", tag: null,
-    desc: "Purple orchid on a charm chain with amethyst, gold coins, and crystal accents. Luxe bohemian vibes.",
-    imgs: ["images/IMG_6503.jpg", "images/product-24.jpg", "images/IMG_6402.jpg"]
+    name: "Star & Oval Pearl Pendant",
+    type: "necklace", price: 55, url: "#", tag: null,
+    desc: "Mother-of-pearl star charm with jade accent and an elegant oval pearl drop. Gold-filled chain.",
+    imgs: ["images/product-3.jpg", "images/product-4.jpg"]
   },
 ];
 
